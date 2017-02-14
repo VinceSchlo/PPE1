@@ -1,0 +1,179 @@
+/*-------------------------------------------------HEADER-------------------------------------------------*/
+
+/*fixer les dimensions de la page entière*/
+#bloc_page
+{
+    /*border: 1px blue solid;*/
+    width: auto;
+    margin: auto;
+    height: 100%;
+}
+
+/*Définir la police d'écriture "Verdana" ainsi que la couleur blanche sur toute la page*/
+html, body 
+{
+    /*border: 2px red solid;*/
+    padding: auto;
+    margin: auto;
+    font-family: Verdana, sans-serif;
+    height: 100%;
+}
+
+/*Barre de connexion */
+header
+{
+    /*border: 1px red solid;*/
+    display: flex;
+    flex-direction: row;         
+    justify-content: flex-end;   
+    background-color: #333333;
+}
+
+.formulaire
+{
+    height: 45%;
+}
+
+/*Texte "Login" connexion"*/
+.id_connexion
+{
+    /*border: 1px aqua solid;*/
+    font-weight: bold;
+    font-size: 20px;        
+    line-height: 40px; 
+    color: white;
+}
+
+/*Texte "Mdp" connexion*/
+.mot_de_passe
+{
+    font-weight: bold;
+    font-size: 20px;        
+    margin-left: 5px;
+    color: white;
+}
+
+/*Zone de saisie de l'identifiant*/
+.case_login
+{
+    border: 1px #333333 solid;
+    border-radius: 0.4em;       
+    height: 16px;               
+    width: 150px;               
+    padding-top: 5px;           
+    margin-left: 5px;
+}
+
+/*Zone de saisie du mot de passe*/
+.case_mdp
+{
+    border: 1px #333333 solid;
+    border-radius: 0.4em;       
+    height: 16px;               
+    width: 150px;               
+    padding-top: 5px;
+    margin-left: 5px;           
+    margin-right: 5px;
+
+}
+
+/*Bouton OK de connexion*/
+.valider
+{
+    border: 1px #333333 solid;
+    cursor: pointer;
+    background-color: #333333;
+    border-radius: 0.4em;        
+    margin-right: 5px;
+    margin-top: 5px;
+    font-weight: bold;
+    font-family: Verdana;
+    font-size: 20px;
+    color: white;
+}
+
+
+/*-------------------------------------------------FIN HEADER-------------------------------------------------*/
+
+
+
+/*-------------------------------------------------CORPS PAGE-------------------------------------------------*/
+
+/*Englobe l'image le calendrier et la description de GSB*/
+section 
+{
+    /*border: 1px green solid;*/
+    display: flex;
+    height: 95%;
+}
+
+/*Dimension image principale dans la div*/ 
+.img_medic #img_medicaments
+{
+    /*border: 1px red solid;*/
+    width: 100%;
+}
+
+/*Allignement horizontale de l image principale et du calendrier*/
+.img_medic .barre_calendrier
+{
+    display: flex;
+    justify-content: flex-end;
+}
+
+/*Marge à gauche de l image principale(espace blanc)*/
+.img_medic
+{
+    /*border: 3px red solid;*/
+    margin-left: 9%;
+    margin-right: 0px;
+}
+
+/*Hauteur de l image principale*/
+#img_medicaments
+{
+    /*border: 1px gold solid;*/
+    height: 580px;
+}
+
+/*Texte descriptif de GSB*/
+.texte
+{
+    /*border: 1px red solid;*/
+    width: 90%;
+    margin-top: 2%;
+    margin-left: 5%;
+    font-family: Verdana;
+    font-size: 22px;
+    color: black;
+}
+
+/*Bande bleu du titre du texte*/
+.title
+{
+    /*border: 1px red solid;*/
+    margin-top: 20px;
+    background: #03b0c0;
+    border-top-right-radius: 0.5em;
+    border-bottom-left-radius: 0.5em;
+    height: 4%;
+    width: 24%;
+}
+
+/*Titre(GSB) du texte*/
+h3
+{
+    /*border: 1px red solid;*/
+    padding-top: 1%;
+    margin-top: 0px;
+    margin-left: 15px;
+    font-family: Verdana;
+    font-size: 25px;
+    color: white;
+    height: 100%;
+}
+
+
+
+/* STYLE POUR LE CALENDRIER */
+

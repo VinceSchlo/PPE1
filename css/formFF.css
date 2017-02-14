@@ -1,0 +1,192 @@
+#bloc_page
+{
+    border: 1px blue solid;
+    width: auto;
+    margin: auto;
+    height: 100%;
+}
+
+section
+{
+    /*border: 1px red solid;*/
+    display: flex;
+    height: 92.5%;
+    width: 100%;
+}
+
+.ajout_et_tableau 
+{
+    /*border: 2px green solid;*/
+    width: 200%;
+}
+
+.ajout_et_tableau .barre_calendrier
+{
+    /*border: 1px green solid;*/
+    display: flex;
+    justify-content: flex-end;
+}
+
+section aside 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#frais_periode 
+{
+    /*border: 1px blue solid;*/
+    width: 50%;
+    margin-top: 2%;
+}
+
+.mois
+{
+    /*border: 1px aqua solid;*/
+}
+
+#ajout_frais
+{
+    /*border: 1px #333333 solid;*/
+    width: 50%;
+    margin-top: 2%;
+}
+
+.frais_valider
+{
+    /*border: 1px black solid;*/
+    display: flex;
+    width: auto;
+    height: auto;
+    margin-left: 9%;
+    margin-top: 2%
+}
+
+
+h1 
+{
+    font-size: 26px;
+    color: #999999;
+}
+
+.titre_barre
+{
+    /*border: 1px red solid;*/
+}
+
+/*#barre
+{
+    border: 1px red solid;
+    margin-top: 0px;
+    
+}*/
+
+.titre1
+{
+    /*border: 1px red solid;*/
+    margin-left: 15px;
+    margin-bottom: 10px;
+    width: 30%;
+}
+
+.titre2
+{
+    margin-left: 15px;
+    margin-bottom: 10px;
+    width: 45.5%;
+}
+
+.titre3
+{
+    margin-left: 15px;
+    margin-bottom: 10px;
+    width: 41%;
+}
+
+div p
+{
+    margin-left: 15px;
+    font-family: Verdana;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 2px;
+    /*width: 25%;*/
+}
+
+.cate
+{
+    margin-top: 20px;
+    margin-left: 15px;
+    /*width: 15.5%;*/
+}
+
+/**
+{
+    border: 1px black solid;
+}*/
+
+.categorie
+{
+    /*border: 1px black solid;*/
+    font-size: 18px;
+    font-weight: bold;
+}
+
+select 
+{
+    font-size: 18px;
+}
+#frais_au
+{
+    /*border: 1px yellow solid;*/
+    background-color: #03b0c0;
+    height: 6%;
+    width: 100%;
+    margin-top: 4%
+}
+
+.frais_au_forfait
+{
+    /*border: 1px black solid;*/
+    width: 13%;
+    height: 80%;
+    font-size: 24px;
+    color: white;
+    margin: 0px;
+    margin-left: 10%;
+    padding-top: 10px;
+
+}
+
+/*---------------------------------------------------TABLEAU---------------------------------------*/
+
+
+
+table
+{
+    border-collapse: collapse;
+    border: 1px white;
+
+}
+
+#tableau
+{
+
+    height: auto;
+    margin-left: 9%;
+}
+
+
+tr
+{
+    height: 50px;
+    text-align: left;
+}
+
+th
+{
+    font-size: 20px;
+}
+
+tr:nth-child(4n+2){background-color: #f2f8f8;}

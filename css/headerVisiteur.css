@@ -1,0 +1,131 @@
+
+
+    /* 1ère partie de header 'bande noir' */
+    html ,body
+    {
+        margin: auto;
+        padding: auto;
+        font-family: Verdana;
+        height: 100%;
+        /*font-weight: bold;*/
+    }
+
+    header
+    {
+        display: flex;
+        flex-direction: column;
+        height: 70px;
+    }
+    .logo
+    {
+        height: 75px;
+        width: 69px;
+        position: absolute;
+        top: -5px;
+        left: 32px;
+
+    }
+
+    .header1 
+    {
+        display: flex;
+        justify-content: space-between;
+        height: 45%;
+        background-color: #333333 ;
+
+    }
+
+    .header1  p
+    {
+        color: white;  
+
+    }
+    .headerDeco p
+    {
+        border-bottom: solid white 1px;
+    }
+    .Deconnexion
+    {
+        color: white; 
+        text-decoration:none;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .Deconnexion:hover
+    {
+        background-color: #4c4646; 
+        font-size: 1.01em;
+    }
+
+    .headerDeco
+    {
+        display: flex;
+        justify-content: space-between;
+
+        width: 22%;
+        align-items: center;
+        margin-right: 18px;
+    }
+
+    .headerMessage
+    {
+        display: flex;
+        justify-content: flex-start;
+        width: 50%;
+        align-items: center;
+        margin-left: 115px;
+    }
+
+    /* 2éme partie de header 'bande bleu ' */
+    .header2
+    {
+        height: 55%;
+        display: flex;
+        align-items: center;
+        background-color: #03b0c0 ;
+    }
+
+    .headerNav
+    {
+        width: 650px;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 70px;
+    }
+
+    li 
+    {
+        list-style: none;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+
+    }
+
+    .lien
+    {
+        color: white;
+        text-decoration:none;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .lien:hover
+    {
+        background-color: #4fb3bc; 
+    }
+    .lienConsultation
+    {
+        border: 2px red solid;
+    }
+
+
