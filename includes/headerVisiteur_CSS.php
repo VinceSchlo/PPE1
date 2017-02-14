@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="../bootstrap/css/test.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/headerComptable.css" />
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -27,10 +28,10 @@
         <div class="col-xs-1"> <a class="Deconnexion" href="../vue/deconnexion.php">Deconnexion</a></div>
 
  <ul class="nav ">
-     <div class="col-xs-1"><li><a class="lien" href="formFF.php">Frais au forfait</a></li></div>
+     <div class="col-xs-offset-1 col-xs-1"><li><a class="lien" href="formFF.php">Frais au forfait</a></li></div>
      <div class="col-xs-2"><li><a class="lien" href="formFHF.php">Frais hors forfait</a></li></div>
      <div class="col-xs-1"><li ><a class="lien" href="consultation.php">Consultation</a></li></div>
-     <div class="col-xs-2"><li ><a class="lien" href="modifProfile.php">Compte</a></li></div>
+     <div class="col-xs-1"><li ><a class="lien" href="modifProfile.php">Compte</a></li></div>
  </ul>
 
 

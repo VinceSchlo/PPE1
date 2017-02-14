@@ -1,24 +1,21 @@
-
-
 /* 1ère partie de header 'bande noir' */
-html ,body
-{
+html, body {
     margin: auto;
     padding: auto;
-    
+
 }
-*
-{
+
+* {
     font-family: Verdana;
 }
-header
-{
+
+header {
     display: flex;
     flex-direction: column;
     height: 70px;
 }
-.logo
-{
+
+.logo {
     height: 75px;
     width: 69px;
     position: absolute;
@@ -27,40 +24,39 @@ header
 
 }
 
-.header1 
-{
+.header1 {
     display: flex;
     justify-content: space-between;
     height: 45%;
-    background-color: #333333 ;
-    
+    background-color: #333333;
+
 }
 
-.header1  p
-{
-    color: white;  
-    
+.header1 p {
+    color: white;
+
 }
-.headerDeco p
-{
+
+.headerDeco p {
     border-bottom: solid white 1px;
 }
-.Deconnexion
-{
-    color: white; 
-    text-decoration:none;
+
+.Deconnexion {
+    color: white;
+    text-decoration: none;
     height: 100%;
     display: flex;
     align-items: center;
-}
-.Deconnexion:hover
-{
-	background-color: #4c4646; 
-    font-size: 1.01em;
+    justify-content: space-around;
 }
 
-.headerDeco
-{
+.Deconnexion:hover {
+    background-color: #4c4646;
+    font-size: 1.01em;
+    color: #2aabd2;
+}
+
+.headerDeco {
     display: flex;
     justify-content: space-between;
 
@@ -69,8 +65,7 @@ header
     margin-right: 18px;
 }
 
-.headerMessage
-{
+.headerMessage {
     display: flex;
     justify-content: flex-start;
     width: 50%;
@@ -79,16 +74,14 @@ header
 }
 
 /* 2éme partie de header 'bande bleu ' */
-.header2
-{
+.header2 {
     height: 55%;
     display: flex;
     align-items: center;
-    background-color: #03b0c0 ;
+    background-color: #03b0c0;
 }
 
-.headerNav
-{
+.headerNav {
     width: 300px;
     height: 100%;
     display: flex;
@@ -97,22 +90,19 @@ header
     margin-left: 70px;
 }
 
-li 
-{
+li {
     list-style: none;
     height: 100%;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
-    
+
 }
 
-.lien
-{
+.lien {
     color: white;
-    text-decoration:none;
+    text-decoration: none;
     height: 100%;
     width: 100%;
     display: flex;
@@ -120,12 +110,11 @@ li
     justify-content: space-around;
 }
 
-.lien:hover
-{
-	background-color: #4fb3bc; 
+.lien:hover {
+    background-color: #4fb3bc;
 }
-.lienConsultation
-{
+
+.lienConsultation {
     border: 2px red solid;
 }
 
