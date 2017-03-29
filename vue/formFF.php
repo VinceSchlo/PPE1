@@ -186,31 +186,31 @@ $afficher = $select->selectLFF();
             <!-- Multiple Radios (inline) -->
 
             <!--Affiche les CV si KM est séléctionné-->
-            <div class="col-md-4" id="divVeh" style='display:none;'>
-                <div class="radio ">
-                    <label for="typVeh-0">
-                        <input type="radio" name="typeVeh" id="typVeh-0" value="4cvd">
-                        4 chevaux diesel
-                    </label>
-                </div>
-                <div class="radio ">
-                    <label for="typVeh-1">
-                        <input type="radio" name="typeVeh" id="typVeh-1" value="4cve">
-                        4 chevaux essence
-                    </label>
-                </div>
-                <div class="radio">
-                    <label for="typVeh-2">
-                        <input type="radio" name="typeVeh" id="typVeh-2" value="56cvd">
-                        5/6 chevaux diesel
-                    </label>
-                </div>
-                <div class="radio">
-                    <label for="typVeh-3">
-                        <input type="radio" name="typeVeh" id="typVeh-3" value="56cve">
-                        5/6 chevaux essence
-                    </label>
-                </div>
+            <div class="col-md-6" id="divVeh" style='display:none;'>
+                    <div class="radio pull-left ">
+                        <label for="typVeh-0">
+                            <input type="radio" name="typeVeh" id="typVeh-0" value="4cvd">
+                            4 chevaux diesel
+                        </label>
+                    </div>
+                    <div class="radio pull-left ">
+                        <label for="typVeh-1">
+                            <input type="radio" name="typeVeh" id="typVeh-1" value="4cve">
+                            4 chevaux essence
+                        </label>
+                    </div>
+                    <div class="radio pull-left">
+                        <label for="typVeh-2">
+                            <input type="radio" name="typeVeh" id="typVeh-2" value="56cvd">
+                            5/6 chevaux diesel
+                        </label>
+                    </div>
+                    <div class="radio pull-left">
+                        <label for="typVeh-3">
+                            <input type="radio" name="typeVeh" id="typVeh-3" value="56cve">
+                            5/6 chevaux essence
+                        </label>
+                    </div>
             </div>
             <br/>
 
